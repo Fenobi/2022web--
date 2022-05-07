@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div p{
+            color: red;
+        }
+        div div p{
+            color: blue;
+        }
+        div p>a{
+            color: blueviolet;
+        }
+        
+    </style>
+</head>
+<body>
+    <p>这个是一个p标签</p>
+    <div>
+        <p>这个是p标签的后代pd
+            <a href="#">这个在pd里面</a>
+        </p>
+            <div>
+                <p>这个是pd的后代pdd</p>
+            </div>
+        
+    </div>
+</body>
+</html>
